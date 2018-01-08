@@ -1,0 +1,30 @@
+ComplainTicket
+===>goToPrint(PrintBehaviour pb);
+
+---------------------------------
+Interface PrintBehaviour 
+==>print();
+
+	Class PrintWithBorder
+
+
+	Class PrintWithHeader
+
+
+	Class PrintWithFooter
+
+
+	Class PrintWithHeaderAndFooter
+------------------------------------
+Main{
+
+	ComplainTicket ob;
+	ob.goToPrint(new PrintWithBorder());
+}
+
+
+Decorator Pattern
+==================
+
+
+			[PrintHeader[PrintHeader[complainTicket(Ticket)](ticket)](Ticket))
