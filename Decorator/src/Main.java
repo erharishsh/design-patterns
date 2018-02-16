@@ -7,15 +7,5 @@ public class Main {
 
          new PrintFooterDecorator(new PrintHeaderDecorator(ticket)).print();
 
-        try {
-
-
-            new LineNumberInputStream(new BufferedInputStream(new FileInputStream(new File("asdf"))));
-
-
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-
     }
 }
